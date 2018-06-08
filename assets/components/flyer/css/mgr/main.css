@@ -1,0 +1,228 @@
+/* add style inline editor */
+.flyer-body .cke_editable.cke_editable_inline.cke_show_borders {
+	padding: 5px;
+	background-color: #FBFBFB;
+	background-image: none;
+	border-radius: 3px;
+	border: 1px solid #E4E4E4;
+	transition: border-color 0.25s;
+	overflow: hidden;
+}
+
+/* add style content editor */
+.flyer-body .cke_editor_ta .cke_wysiwyg_frame {
+	background-color: #FBFBFB;
+	background-image: none;
+	border-radius: 3px;
+	border: 1px solid #E4E4E4;
+	transition: border-color 0.25s;
+}
+
+.flyer-body .flyer-load {
+	display: none!important;
+}
+
+/* add css toolbar */
+.flyer-body .cke_inner .cke_top {
+	padding: 1px 1px 1px;
+}
+
+.flyer-body .cke_toolbar .cke_toolgroup,
+.flyer-body .cke_toolbar .cke_combo_button {
+	margin: 0 1px 1px 0;
+}
+
+.flyer-body a.cke_button {
+	padding: 4px 4px;
+}
+
+/* hide toolbar separator */
+.flyer-body .cke_toolgroup span.cke_toolbar_separator {
+	display: none;
+}
+
+
+/* hide button */
+.flyer-body .cke_toolbar .cke_button__source,
+.flyer-body .cke_toolbar .cke_button__searchcode,
+.flyer-body .cke_toolbar .cke_button__autoformat,
+.flyer-body .cke_toolbar .cke_button__commentselectedrange,
+.flyer-body .cke_toolbar .cke_button__uncommentselectedrange,
+.flyer-body .cke_toolbar .cke_button__autocomplete,
+
+.flyer-body .cke_toolbar .cke_button__sourcedialog .cke_button__sourcedialog_label {
+	display: none;
+}
+
+/* add modx style */
+.flyer-body .cke_dialog_body {
+	border: none;
+	background: #FBFBFB;
+	-webkit-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+	-moz-box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+	box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.2);
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+}
+.flyer-body .cke_dialog_title {
+	background: #F0F0F0;
+	border: 0;
+	border-bottom: 1px solid #DCDCDC;
+	-webkit-border-radius: 3px 3px 0 0;
+	-moz-border-radius: 3px 3px 0 0;
+	border-radius: 3px 3px 0 0;
+	color: #555555;
+	font: normal 13px "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+	font-weight: bold;
+	padding: 8px;
+	text-align: center;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.flyer-body .cke_dialog_footer {
+	background: #F0F0F0;
+	border: 0;
+	outline: 0;
+	border-top: 1px solid #DCDCDC;
+	-webkit-border-radius: 0 0 3px 3px;
+	-moz-border-radius: 0 0 3px 3px;
+	border-radius: 0 0 3px 3px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding: 5px;
+	width: 100%;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+}
+.flyer-body .cke_dialog_tabs {
+	left: 0;
+	height: 18px;
+}
+.flyer-body .cke_dialog_tab {
+	background: transparent;
+	color: #3697cd;
+	cursor: pointer;
+	font-family: "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+	position: relative;
+	-webkit-border-radius: 0;
+	-moz-border-radius: 0;
+	border-radius: 0;
+	border: 0;
+	vertical-align: bottom;
+	height: 18px;
+	line-height: 18px;
+}
+.flyer-body .cke_dialog_tab:hover {
+	background: transparent;
+	color: #1f5c7e;
+}
+.flyer-body .cke_dialog_tab.cke_dialog_tab_selected {
+	background: #fff;
+	-webkit-box-shadow: 0 -3px 0 #3697cd, -1px 0 0 transparent;
+	-moz-box-shadow: 0 -3px 0 #3697cd, -1px 0 0 transparent;
+	box-shadow: 0 -3px 0 #3697cd, -1px 0 0 transparent;
+	cursor: default;
+}
+
+.flyer-body .cke_dialog_contents {
+	border-top: 0;
+	margin-top: 31px;
+	-webkit-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	-moz-box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+	box-shadow: 0 0 5px 0 rgba(0, 0, 0, 0.1);
+}
+.flyer-body a.cke_dialog_ui_button {
+	font: normal 11px / 12 "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+	background: #FFF;
+	border: 0;
+	text-shadow: none;
+	font-weight: 400;
+	padding: 8px 10px !important;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	-webkit-box-shadow: 0 0 0 1px #E4E4E4;
+	-moz-box-shadow: 0 0 0 1px #E4E4E4;
+	box-shadow: 0 0 0 1px #E4E4E4;
+	color: #555555;
+	cursor: pointer;
+	display: inline-block;
+	line-height: 1;
+	/* padding: 10px 15px 10px 15px; */
+	position: relative;
+	text-decoration: none;
+	padding: 8px 10px !important;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	height: 28px;
+}
+.flyer-body a.cke_dialog_ui_button:hover,
+.flyer-body a.cke_dialog_ui_button:focus {
+	background: #3697cd;
+	box-shadow: 0 0 0 1px #3697cd;
+	color: #FFF;
+	text-shadow: none;
+	border: 0;
+}
+.flyer-body a.cke_dialog_ui_button.cke_dialog_ui_button_ok {
+	text-shadow: none;
+	border: 0;
+	background-color: #32AB9A;
+	background-image: linear-gradient(#32AB9A, #00948E);
+	box-shadow: none;
+	color: #FFF;
+}
+.flyer-body a.cke_dialog_ui_button.cke_dialog_ui_button_ok:hover,
+.flyer-body a.cke_dialog_ui_button.cke_dialog_ui_button_ok:focus {
+	text-shadow: none;
+	border: 0;
+	background-color: #2b9385;
+	background-image: linear-gradient(#2b9385, #007571);
+	box-shadow: none;
+	color: #FFF;
+}
+.flyer-body span.cke_dialog_ui_button {
+	text-shadow: none;
+	padding: 0 !important;
+	font-weight: 400;
+	display: block;
+	height: 12px;
+	color: inherit !important;
+	font: inherit !important;
+	min-width: 20px;
+	text-align: center;
+}
+.flyer-body .cke_dialog_ui_labeled_label {
+	display: block;
+	color: #555555;
+	font: bold 12px / 1 "Helvetica Neue", Helvetica, Arial, Tahoma, sans-serif;
+	padding: 0 0 2px;
+}
+.flyer-body .cke_dialog_ui_input_text,
+.flyer-body .cke_dialog_ui_input_select {
+	border-color: #E4E4E4;
+	background: #fbfbfb;
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.flyer-body input.cke_dialog_ui_input_text,
+.flyer-body select.cke_dialog_ui_input_select {
+	height: 28px;
+	padding: 6px;
+}
+.flyer-body .cke_dialog_ui_input_text:focus,
+.flyer-body .cke_dialog_ui_input_select:focus {
+	border-color: #2d86b7;
+}
+.flyer-body .cke_dialog_ui_hbox td {
+	padding-bottom: 6px;
+}

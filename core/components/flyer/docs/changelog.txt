@@ -1,0 +1,5 @@
+Changelog for flyer
+
+0.1.0-beta (06.06.2018)
+==============
+init
